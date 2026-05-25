@@ -1,5 +1,7 @@
 CREATE DATABASE servilimar;
 
+\c servilimar
+
 CREATE TABLE ciudad (
     ciudad_id SERIAL PRIMARY KEY,
     nombre_ciudad VARCHAR(80) NOT NULL UNIQUE,
